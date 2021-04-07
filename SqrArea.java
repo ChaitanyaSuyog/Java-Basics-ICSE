@@ -1,7 +1,5 @@
 // Program 4- WAP to calculate and print the area of a square by taking the input from the user.
 
-package com.chaitanya;
-
 import java.util.*;
 
 public class SqrArea {
