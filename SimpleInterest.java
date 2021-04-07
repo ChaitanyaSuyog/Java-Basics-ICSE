@@ -1,7 +1,5 @@
 // Program 9- WAP to calculate and display the simple interest and amount given the principal, amount, rate per annum and time (in years).
 
-package com.chaitanya;
-
 import java.util.Scanner;
 
 public class SimpleInterest {
