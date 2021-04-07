@@ -1,7 +1,5 @@
 // Program 7- WAP to swap 2 numbers using a third variable.
 
-package com.chaitanya;
-
 import java.util.Scanner;
 
 public class SwapVar {
