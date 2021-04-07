@@ -1,7 +1,5 @@
 // Program 6- WAP to find the area and circumference of a circle.
 
-package com.chaitanya;
-
 import java.util.Scanner;
 
 public class CircCalc {
