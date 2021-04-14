@@ -14,6 +14,5 @@ public class YearConv {
         m = (days % 365) / 30;
         d = (days % 30) % 30;
         System.out.println("No. of years: " + y + ", no. of months: " + m + ", no of days: " + d);
-
     }
 }
