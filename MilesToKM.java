@@ -1,4 +1,4 @@
-//Program 11- WAP to convert and display the distance given in miles to kilometers.
+//Program 12- WAP to convert and display the distance given in miles to kilometers.
 
 import java.util.Scanner;
 
