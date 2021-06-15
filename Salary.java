@@ -1,4 +1,4 @@
-/* Program 13 - WAP to input the name and basic salary of an employee. Calculate and display the gross and net salaries.
+/* Program 14 - WAP to input the name and basic salary of an employee. Calculate and display the gross and net salaries.
 da = 30% of basic
 hra = 12.5% of basic
 pf = 10% of basic
