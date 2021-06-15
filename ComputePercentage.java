@@ -6,9 +6,12 @@ public class ComputePercentage {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number of boys:\nEnter the number of girls:");
+
         double noBoys = scan.nextDouble();
         double noGirls = scan.nextDouble();
+
         double totStudents = noBoys + noGirls;
+
         double percBoys = (noBoys/totStudents) * 100;
         double percGirls = (noGirls/totStudents) * 100;
 
