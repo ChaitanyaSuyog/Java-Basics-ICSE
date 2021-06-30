@@ -14,7 +14,7 @@ _________   _________   _________
 
 import java.util.Scanner;
 
-public class TotalAverage {
+public class InputInFormat {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your name, 3 subject marks, class and section.");
