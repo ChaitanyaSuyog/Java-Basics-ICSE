@@ -1,8 +1,9 @@
-// Program 16 - WAP to check if the given number input is positive, negative or equal to 0.
+// Program 17 - WAP to check if the given number input is positive, negative or equal to 0.
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class IfElseIfElse {
+public class IfElseIfElse17 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         float a = scan.nextFloat();
@@ -17,7 +18,7 @@ public class IfElseIfElse {
             System.out.println(a + " is 0.");
         }
         else {
-            System.out.println("Invalid.");
+            throw new InputMismatchException("Invalid input.");
         }
     }
 

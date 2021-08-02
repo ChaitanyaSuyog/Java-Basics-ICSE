@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class PercentageBoysGirls {
+public class PercentageBoysGirls13 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number of boys:\nEnter the number of girls:\nEnter the number of total students:");

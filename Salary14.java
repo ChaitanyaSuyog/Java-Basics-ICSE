@@ -8,7 +8,7 @@ net pay = gross - pf
 
 import java.util.Scanner;
 
-public class Salary {
+public class Salary14 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your name:\nEnter your salary:");

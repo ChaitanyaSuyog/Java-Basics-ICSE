@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Voltage {
+public class Voltage11 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
