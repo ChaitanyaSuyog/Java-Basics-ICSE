@@ -30,21 +30,29 @@ public class BillAmount19 {
             charges = 5.50f;
             billAmount = charges * unitsConsumed;
             System.out.println("Your bill amount = Rs." + billAmount);
+            System.out.println("Name = " + name);
+            System.out.println("Customer ID = " + customerID);
         }
         else if (unitsConsumed > 100 && unitsConsumed <= 300) {
             charges = 6.50f;
             billAmount = 100 * 5.50f + (unitsConsumed - 100) * charges;
             System.out.println("Your bill amount = Rs." + billAmount);
+            System.out.println("Name = " + name);
+            System.out.println("Customer ID = " + customerID);
         }
         else if (unitsConsumed > 300 && unitsConsumed <= 600) {
             charges = 7.50f;
             billAmount = (100 * 5.50f) + (200 * 6.50f) + (unitsConsumed - 300) * charges;
             System.out.println("Your bill amount = Rs." + billAmount);
+            System.out.println("Name = " + name);
+            System.out.println("Customer ID = " + customerID);
         }
         else if (unitsConsumed > 600 && unitsConsumed <= 1200) {
             charges = 8.50f;
             billAmount = (100 * 5.50f) + (200 * 6.50f) + (300 * 7.50f) + (unitsConsumed - 600) * charges;
             System.out.println("Your bill amount = Rs." + billAmount);
+            System.out.println("Name = " + name);
+            System.out.println("Customer ID = " + customerID);
         }
         else {
             throw new InputMismatchException("Invalid input.");
