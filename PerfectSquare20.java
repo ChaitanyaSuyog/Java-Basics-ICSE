@@ -1,3 +1,4 @@
+//Program 20 - WAP to find out if the given two numbers are perfect squares or not.
 
 import java.util.Scanner;
 

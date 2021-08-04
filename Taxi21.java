@@ -1,3 +1,16 @@
+/*Program 21 - A pre-paid taxi charges the passenger upon the given tariff:
+
+               Up to 5 km - Rs. 100
+               For the next 10 km - Rs. 10/km
+               For the next 10 km - Rs. 8/km
+               More than 25 km - Rs. 5 km
+
+               Display:
+               Taxi no.: ______
+               Distance Covered: ______
+               Amount: ______
+ */
+
 import java.util.Scanner;
 
 public class Taxi21 {
@@ -11,22 +24,17 @@ public class Taxi21 {
         double s = scan.nextDouble();
 
         double amt = 0d;
-        double rate = 0d;
 
         if (s <= 5) {
-            rate = 100d;
-            amt = s * rate;
+            amt = s * 100;
         }
         else if (s > 5 && s <= 10) {
-            rate = 10;
             amt = 100 + (s - 5) * 10;
         }
         else if (s > 15 && s <= 20) {
-            rate = 8;
             amt = 100 + (10 * 10) + (s - 15) * 8;
         }
         else if (s > 25) {
-            rate = 5;
             amt = 100 + (10 * 10) + (20 * 8) + (s -25) * 5;
         }
         else {
