@@ -1,6 +1,4 @@
 # Java-Basics-ICSE
-<br>
-<br>
 Java programs for Indian Certificate of Secondary Education examinations.
 <br>
 <br>
