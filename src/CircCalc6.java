@@ -7,8 +7,8 @@ public class CircCalc6 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the radius of the circle: ");
         int r = sc.nextInt();
-        double ac = 3.14 * r * r;   // area
-        double cc = 3.14 * 2 * r;   // circumference
+        double ac = 3.14 * r * r;
+        double cc = 3.14 * 2 * r;
         System.out.println("The area = " + ac + ", the circumference = " + cc);
     }
 }
