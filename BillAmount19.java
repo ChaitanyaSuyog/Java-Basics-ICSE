@@ -1,5 +1,5 @@
 /* Program 19 - WAP to input the name, customer ID and number of units consumed
-by the user and calculate and displat the bill amount as per the table below:
+by the user and calculate and display the bill amount as per the table below:
 
 Upto 100 units = Rs 5.50 / unit
 For next 200 units = Rs 5.50 / unit
