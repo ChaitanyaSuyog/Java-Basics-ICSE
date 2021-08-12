@@ -2,9 +2,9 @@
 by the user and calculate and display the bill amount as per the table below:
 
 Upto 100 units = Rs 5.50 / unit
-For next 200 units = Rs 5.50 / unit
-For next 300 units = Rs 6.50 / unit
-More than 600 units = Rs 7.50 / unit
+For next 200 units = Rs 6.50 / unit
+For next 300 units = Rs 7.50 / unit
+More than 600 units = Rs 8.50 / unit
  */
 
 import java.util.InputMismatchException;
