@@ -1,5 +1,7 @@
 //Program 12- WAP to convert and display the distance given in miles to kilometers.
 
+package src;
+
 import java.util.Scanner;
 
 public class MilesToKM12 {

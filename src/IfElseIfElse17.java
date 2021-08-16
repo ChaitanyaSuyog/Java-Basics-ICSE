@@ -1,5 +1,7 @@
 // Program 17 - WAP to check if the given number input is positive, negative or equal to 0.
 
+package src;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

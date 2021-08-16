@@ -12,6 +12,8 @@ _________   _________   _________
 
  */
 
+package src;
+
 import java.util.Scanner;
 
 public class InputInFormat15 {

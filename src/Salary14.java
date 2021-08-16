@@ -6,6 +6,8 @@ gross = basic + da + hra + pf
 net pay = gross - pf
  */
 
+package src;
+
 import java.util.Scanner;
 
 public class Salary14 {

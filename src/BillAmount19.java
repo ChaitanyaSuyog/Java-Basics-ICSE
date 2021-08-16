@@ -7,6 +7,8 @@ For next 300 units = Rs 7.50 / unit
 More than 600 units = Rs 8.50 / unit
  */
 
+package src;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

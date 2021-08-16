@@ -1,5 +1,7 @@
 // Program 3- WAP to calculate and print the sum, difference, product, quotient and remainder of 2 numbers.
 
+package src;
+
 public class Calculator3 {
     public static void main(String[] args) {
         int a = 5;

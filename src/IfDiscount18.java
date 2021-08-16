@@ -6,6 +6,8 @@
    Above Rs. 5000 = 40%, free watch
  */
 
+package src;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

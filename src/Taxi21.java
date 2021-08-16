@@ -11,6 +11,8 @@
                Amount: ______
  */
 
+package src;
+
 import java.util.Scanner;
 
 public class Taxi21 {

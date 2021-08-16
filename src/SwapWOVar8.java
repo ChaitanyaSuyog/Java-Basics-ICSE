@@ -1,5 +1,7 @@
 // Program 8- WAP to swap 2 numbers without using a third variable.
 
+package src;
+
 import java.util.Scanner;
 
 public class SwapWOVar8 {

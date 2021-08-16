@@ -1,5 +1,7 @@
 // Program 5- WAP to find the area of a rectangle.
 
+package src;
+
 import java.util.Scanner;
 
 public class RectArea5 {

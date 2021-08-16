@@ -1,5 +1,7 @@
 // Program 10- WAP to find the number of years, months and days, given the total number of days.
 
+package src;
+
 import java.util.Scanner;
 
 public class YearConv10 {

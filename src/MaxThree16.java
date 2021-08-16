@@ -1,5 +1,7 @@
 //Program 16 - WAP to find the largest out of three given numbers.
 
+package src;
+
 import java.util.Scanner;
 
 public class MaxThree16 {

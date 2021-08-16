@@ -1,5 +1,7 @@
 // Program 11- WAP to calculate voltage using V = IR.
 
+package src;
+
 import java.util.Scanner;
 
 public class Voltage11 {

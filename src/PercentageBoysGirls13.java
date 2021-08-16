@@ -1,5 +1,7 @@
 // Program 13 - WAP to input the total number of students, girls and boys in your class and find the percentage of boys and girls.
 
+package src;
+
 import java.util.Scanner;
 
 public class PercentageBoysGirls13 {
