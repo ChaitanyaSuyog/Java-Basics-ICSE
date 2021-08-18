@@ -12,9 +12,9 @@ public class TablesTillTen23 {
         int n = scan.nextInt();
 
         for (int i = 0; i <= 10; i++) {
-            String print = n + " * " + i;
+            String print = n + " * " + i + " = ";
             int product = n * i;
-            System.out.println(print + " = " + product);
+            System.out.println(print + product);
         }
     }
 }
