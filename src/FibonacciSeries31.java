@@ -34,7 +34,7 @@ public class FibonacciSeries31 {
 
                 int a = 0;
                 int b = 1;
-                int c = 0;
+                int c;
 
                 if (n == 1) {
                     System.out.println(a);
