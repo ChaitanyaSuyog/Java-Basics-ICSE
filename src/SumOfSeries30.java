@@ -9,13 +9,12 @@ public class SumOfSeries30 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number of terms and the value of x: ");
         int n = scan.nextInt();
-        int x = scan.nextInt();
+        double x = scan.nextDouble();
 
         double sum = 0d;
-        int j = 1;
 
         for (int i = 1; i <= n; i++) {
-            double power = j++;
+            double power = i;
             double eq = 1/Math.pow(x, power);
             sum = sum + eq;
         }
