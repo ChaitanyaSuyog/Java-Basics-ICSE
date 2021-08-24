@@ -4,7 +4,7 @@ package src;
 
 import java.util.Scanner;
 
-public class SumOfSeries {
+public class SumOfSeries30 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number of terms and the value of x: ");
@@ -17,8 +17,7 @@ public class SumOfSeries {
         for (int i = 1; i <= n; i++) {
             double power = j++;
             double eq = 1/Math.pow(x, power);
-            double t = eq;
-            sum = sum + t;
+            sum = sum + eq;
         }
         System.out.println(sum);
     }
