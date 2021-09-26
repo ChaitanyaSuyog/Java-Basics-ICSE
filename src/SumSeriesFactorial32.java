@@ -23,5 +23,6 @@ public class SumSeriesFactorial32 {
                 sum = sum - ((Math.pow(x, i)) / f);
             }
         }
+        System.out.println(sum);
     }
 }
