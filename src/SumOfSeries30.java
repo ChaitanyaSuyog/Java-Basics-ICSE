@@ -14,8 +14,7 @@ public class SumOfSeries30 {
         double sum = 0d;
 
         for (int i = 1; i <= n; i++) {
-            double power = i;
-            double eq = 1/Math.pow(x, power);
+            double eq = 1/Math.pow(x, i);
             sum = sum + eq;
         }
         System.out.println(sum);

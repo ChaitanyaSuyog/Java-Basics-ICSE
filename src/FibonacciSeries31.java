@@ -25,7 +25,7 @@ public class FibonacciSeries31 {
 
                 for (int i = 0; i < n; i++) {
                     sum = sum + (x/dr);
-                    dr = dr + 2;
+                    dr += 2;
                 }
                 break;
             case 2:

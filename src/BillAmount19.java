@@ -9,7 +9,6 @@ More than 600 units = Rs 8.50 / unit
 
 package src;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class BillAmount19 {
@@ -41,6 +40,7 @@ public class BillAmount19 {
         }
         else {
             System.out.println("Invalid input.");
+            System.exit(0);
         }
         System.out.println("Your bill amount = Rs." + billAmount);
         System.out.println("Name = " + name);
