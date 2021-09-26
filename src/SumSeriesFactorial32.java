@@ -4,7 +4,7 @@ package src;
 
 import java.util.Scanner;
 
-public class SumSeriesfactorial32 {
+public class SumSeriesFactorial32 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the value of x and the number of terms: ");
