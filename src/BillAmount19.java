@@ -25,7 +25,7 @@ public class BillAmount19 {
         String name = scan.nextLine();
         String customerID = scan.nextLine();
         int unitsConsumed = scan.nextInt();
-        float billAmount;
+        float billAmount = 0f;
 
         if (unitsConsumed > 0 && unitsConsumed <= 100) {
             billAmount = 5.50f  * unitsConsumed;
@@ -40,7 +40,7 @@ public class BillAmount19 {
             billAmount = (100 * 5.50f) + (200 * 6.50f) + (300 * 7.50f) + (unitsConsumed - 600) * 8.50f ;
         }
         else {
-            throw new InputMismatchException("Invalid input.");
+            System.out.println("Invalid input.");
         }
         System.out.println("Your bill amount = Rs." + billAmount);
         System.out.println("Name = " + name);
