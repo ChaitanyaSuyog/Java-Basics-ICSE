@@ -13,11 +13,10 @@ import java.util.Scanner;
 
 public class IfDiscount18 {
 
-    static float discount;
-    static int totalCost;
-    static float finalBill;
-
     public static void main(String[] args) {
+        float discount;
+        int totalCost;
+        float finalBill;
         Scanner scan = new Scanner(System.in);
         totalCost = scan.nextInt();
 
