@@ -11,10 +11,10 @@ public class SumSeriesFactorial32 {
         double x = scan.nextDouble();
         int num = scan.nextInt();
 
-        double sum = 0f;
+        double sum = 0d;
         int f = 1;
 
-        for (int i = 1; i <= num; i ++) {
+        for (int i = 1; i <= num; i++) {
             f = f * i;
             if (i % 2 != 0) {
                 sum = sum + ((Math.pow(x, i)) / f);
