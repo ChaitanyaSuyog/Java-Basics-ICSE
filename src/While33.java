@@ -1,3 +1,5 @@
+//Program 33 - WAP to recreate a for loop in while loop.
+
 package src;
 
 public class While33 {
