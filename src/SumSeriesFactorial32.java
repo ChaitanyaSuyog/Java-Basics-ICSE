@@ -1,4 +1,4 @@
-//Program 31 - WAP to find the sum of the given numbers : x/1! - x^2/2! + x^3/3! - x^4/4!... upto n terms
+//Program 32 - WAP to find the sum of the given numbers : x/1! - x^2/2! + x^3/3! - x^4/4!... upto n terms
 
 package src;
 
