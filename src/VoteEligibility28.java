@@ -14,7 +14,7 @@ public class VoteEligibility28 {
         if (age > 0 && age < 18) {
             System.out.println("You are not eligible to vote.");
         }
-        else if (age > 0 && age <= 18) {
+        else if (age >= 18) {
             System.out.println("You are eligible to vote.");
         }
         else {

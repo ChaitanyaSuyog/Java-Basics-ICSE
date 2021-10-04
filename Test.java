@@ -1,22 +1,17 @@
 import java.util.Scanner;
 
-class PrimeNum {
+class Test{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter an integer to check whether it is prime or not: ");
-        int number = scan.nextInt();
-        int count = 0;
+        System.out.println("Enter the range (lower and higher numbers): ");
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
 
-        for (int i = 1; i <= number; i++) {
-            if (number % i == 0) {
-                count++;
+        while (num1 < num2) {
+            num1++;
+            if (num1 % 2 == 0) {
+                System.out.println(num1);
             }
-        }
-        if (count == 2) {
-            System.out.println("The number is prime.");
-        }
-        else {
-            System.out.println("The number is not prime.");
         }
     }
 }

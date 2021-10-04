@@ -16,13 +16,13 @@ public class MenuDriven29 {
         switch (menu) {
             case 1:
                 System.out.println("Enter the character: ");
-                char l = scan.nextLine().charAt(0);
+                char v = scan.nextLine().charAt(0);
 
-                if (l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u' || l == 'A' || l == 'E' || l == 'I' || l == 'O' || l == 'U') {
-                    System.out.println(l + " is a vowel.");
+                if (v == 'a' || v == 'e' || v == 'i' || v == 'o' || v == 'u' || v == 'A' || v == 'E' || v == 'I' || v == 'O' || v == 'U') {
+                    System.out.println(v + " is a vowel.");
                 }
                 else {
-                    System.out.println(l + " is a consonant.");
+                    System.out.println(v + " is a consonant.");
                 }
                 break;
             case 2:
