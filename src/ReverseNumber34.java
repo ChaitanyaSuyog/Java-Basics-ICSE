@@ -15,6 +15,7 @@ public class ReverseNumber34 {
             rev = (rev * 10) + digit;
             n = n / 10;
         }
-        System.out.println(rev);
+        System.out.println("Original number: " + n);
+        System.out.println("Reversed number: " + rev);
     }
 }
