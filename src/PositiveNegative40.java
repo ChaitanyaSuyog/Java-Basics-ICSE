@@ -1,4 +1,4 @@
-//Program 40 - WAP to add the numbers if they are positive or break if they are negative.
+//Program 40 - WAP to add the numbers if they are both positive, or break if either of them are negative.
 
 package src;
 
@@ -13,7 +13,7 @@ public class PositiveNegative40 {
             int num1 = scan.nextInt();
             int num2 = scan.nextInt();
 
-            if (num1 <= 0 && num2 <= 0) {
+            if (num1 >= 0 && num2 >= 0) {
                 int sum = num1 + num2;
                 System.out.println("Sum of the numbers = " + sum);
             }
