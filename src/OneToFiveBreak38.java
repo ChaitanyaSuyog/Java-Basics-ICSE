@@ -1,8 +1,10 @@
+//Program 39- WAP to print numbers 1, 2 using a for loop and break statement.
+
 package src;
 
-public class OneToFive38 {
+public class OneToFiveBreak38 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i < 5; i++) {
             if (i == 3) {
                 break;
             }
