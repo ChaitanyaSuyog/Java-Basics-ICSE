@@ -16,11 +16,11 @@ public class Automorphic {
         int isAutomorphic = 0;
 
         while (n != 0) {
-            if (n % 10 != nSqr % 10) {
-                isAutomorphic = 1;
+            if (n % 10 == nSqr % 10) {
+                isAutomorphic = 0;
             }
             else {
-                isAutomorphic = 0;
+                isAutomorphic = 1;
             }
             n /= 10;
             nSqr /= 10;
