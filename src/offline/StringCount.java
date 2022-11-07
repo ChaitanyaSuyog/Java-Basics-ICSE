@@ -35,9 +35,11 @@ public class StringCount {
         }
         return lC;
     }
-    public static int wordCount(String str) {
+    public static int wordCount(String strDefault) {
         char c = '\u0000';
         int wC = 0;
+
+        String str = strDefault.trim();
 
         int x = 0;
         for (int i = 0; i < str.length(); i++) {
