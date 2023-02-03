@@ -10,7 +10,8 @@ Brief description of each package (under <code>src</code>):
 <dt><code>preboard23</code></dt>
 <dd> - contains solved programs from our school Pre-board paper, contains questions as well <b>(for everyone)</b></dd>
 <br>
-Please ignore <code>.idea</code> and <code>out/production/Java-Basics-ICSE</code> (IntelliJ config)
+Please ignore <code>.idea</code> and <code>out/production/Java-Basics-ICSE</code> (IntelliJ config).
+<br>
 <br>
 Good luck for your upcoming exams!
 <br>
