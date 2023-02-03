@@ -10,6 +10,12 @@ Brief description of each package:
 <dt><i>Preboard</i></dt>
 <dd> - contains solved programs from our school Pre-board paper, contains questions as well <b>(for everyone)</b></dd>
 <br>
+Good luck for your upcoming exams!
+<br>
+Regards,
+<br>
+<b>Chaitanya, Batch of <i>2023</i></b>
+<br>
 <br>
 Note:
 Does <b>NOT</b> include Variable Description Tables (VDT) or written Output. Don't forget to write your VDT in your exams <i>(output isn't necessary)</i>!
