@@ -1,11 +1,8 @@
 # Java-Basics-ICSE
-Java programs for Indian Certificate of Secondary Education examinations.
+Java programs for <b>I</b><i>ndian</i> <b>C</b><i>ertificate</i> of <b>S</b><i>econdary</i> <b>E</b><i>ducation</i> examinations.
 <br>
+Contains Java programs that are under the ICSE syllabus.
 <br>
-Contains Java programs taught under ICSE syllabus.
 <br>
 Note:
 Does <b>NOT</b> include Variable Description Tables (VDT) or written Output.
-<br>
-<br>
-<b>P.S- Not in numerical order, program numbers written in the class name.</b>
