@@ -1,7 +1,7 @@
 # Java-Basics-ICSE
 Java programs for <b>I</b><i>ndian</i> <b>C</b><i>ertificate</i> of <b>S</b><i>econdary</i> <b>E</b><i>ducation</i> examinations.
 <br>
-Brief description of each package:
+Brief description of each package (under <code>src</code>):
 <dl>
 <dt><i>Offline</i></dt>
 <dd> - contains programs we did in school, after our online classes were over, does not contain questions <b>(mainly for my own reference)</b></dd>
