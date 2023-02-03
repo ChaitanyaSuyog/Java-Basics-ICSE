@@ -2,6 +2,13 @@
 Java programs for <b>I</b><i>ndian</i> <b>C</b><i>ertificate</i> of <b>S</b><i>econdary</i> <b>E</b><i>ducation</i> examinations.
 <br>
 Brief description of each package (under <code>src</code>):
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
 <dl>
 <dt><code>offline</code></dt>
 <dd> - contains programs we did in school, after our online classes were over, does not contain questions <b>(mainly for my own reference)</b></dd>
