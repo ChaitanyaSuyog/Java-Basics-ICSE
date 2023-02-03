@@ -3,11 +3,11 @@ Java programs for <b>I</b><i>ndian</i> <b>C</b><i>ertificate</i> of <b>S</b><i>e
 <br>
 Brief description of each package (under <code>src</code>):
 <dl>
-<dt><i>Offline</i></dt>
+<dt><code>offline</code></dt>
 <dd> - contains programs we did in school, after our online classes were over, does not contain questions <b>(mainly for my own reference)</b></dd>
-<dt><i>Online</i></dt>
+<dt><code>online</code></dt>
 <dd> - contains programs we did in our online classes (during COVID-19), contains questions from mainly 9th STD syllabus <b>(for everyone)</b></dd>
-<dt><i>Preboard</i></dt>
+<dt><code>preboard</code></dt>
 <dd> - contains solved programs from our school Pre-board paper, contains questions as well <b>(for everyone)</b></dd>
 <br>
 Good luck for your upcoming exams!
