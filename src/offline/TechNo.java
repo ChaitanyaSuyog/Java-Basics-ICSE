@@ -4,8 +4,7 @@ public class TechNo {
     public static void checkNo(int n) {
         int oN = n;
         int half1 = n % 100;
-        n = n / 100;
-        int half2 = n;
+        int half2 = n / 100;
 
         if (Math.pow(half1 + half2, 2) == oN) {
             System.out.println(oN);

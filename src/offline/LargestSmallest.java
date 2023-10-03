@@ -11,7 +11,7 @@ public class LargestSmallest {
         for (int i = 0; i < 10; i++) {
             x[i] = scan.nextInt();
         }
-        int large = -2147483648;
+        int large = x[0];
         for (int i = 0; i < 10; i++) {
             if (x[i] > large) {
                 large = x[i];
