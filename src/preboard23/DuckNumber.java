@@ -11,27 +11,17 @@ public class DuckNumber {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        String num = scan.next();
-        if (num.charAt(0) == 0) {
-            System.out.println(num + " is not a duck number.");
-            System.exit(0);
-        }
+        //If input number with 0 in the beginning is given, it is automatically ignored in the int data type
+        int num = scan.nextInt();
 
-        int n = Integer.parseInt(num);
-        boolean found = false;
-        while (n > 0) {
-            if (n % 10 == 0) {
-                found = true;
-                break;
+        int original = num;
+        while (num != 0) {
+            if (num % 10 == 0) {
+                System.out.println(original + " is a duck number.");
+                System.exit(0);
             }
-            n = n / 10;
+            num /= 10;
         }
-
-        if (found) {
-            System.out.println(num + " is a duck number.");
-        }
-        else {
-            System.out.println(num + " is not a duck number.");
-        }
+        System.out.println(original + " is not a duck number.");
     }
 }
