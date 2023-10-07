@@ -27,7 +27,7 @@ public class Menu {
 
                 float fFloor = (float) Math.floor(f);
                 float fFractional = f - fFloor;
-                // due to how float storage works, the system may round to weird answers, but the concept IS CORRECT
+                // due to how float storage works, the system may round to weird answers, but the concept IS CORRECT - for more about it google 'IEEE 754 error in floating point'
                 System.out.println("Integer part = " + (int) fFloor + ", Fractional part = " + fFractional);
                 break;
 
